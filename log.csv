@@ -1,0 +1,74 @@
+14:18:40 Expression: 12+3
+14:18:40 Result = 15.0
+14:19:16 Expression: i+3
+14:19:16 Result = ('Возникла ошибка: ', '("name \'i\' is not defined",)')
+14:19:30 Expression: i + 3
+14:19:30 Result = ('Возникла ошибка: ', '("name \'i\' is not defined",)')
+14:21:01 Expression: 123+6+7/8+(3/3)
+14:21:01 Result = 130.875
+14:21:09 Expression: 12+3
+14:21:09 Result = 15
+14:22:36 Expression: 12j+3
+14:22:36 Result = (3+12j)
+14:22:48 Expression: j**2
+14:22:48 Result = ('Возникла ошибка: ', '("name \'j\' is not defined",)')
+14:23:03 Expression: j*j
+14:23:03 Result = ('Возникла ошибка: ', '("name \'j\' is not defined",)')
+14:23:10 Expression: 1j*1j
+14:23:10 Result = (-1+0j)
+14:23:43 Expression: 1j+3
+14:23:43 Result = (3+1j)
+14:24:46 Expression: 1+j
+14:24:46 Result = ('Возникла ошибка: ', '("name \'j\' is not defined",)')
+14:25:36 Expression: 1+5j
+14:25:36 Result = (1+5j)
+14:25:47 Expression: 1-0.5j
+14:25:47 Result = (1-0.5j)
+14:25:52 Expression: 1-j
+14:25:52 Result = ('Возникла ошибка: ', '("name \'j\' is not defined",)')
+14:28:43 Expression: 1+j
+14:28:43 Result = ('Возникла ошибка: ', '("name \'j\' is not defined",)')
+14:28:55 Expression: 1+j
+14:28:55 Result = ('Возникла ошибка: ', '("name \'j\' is not defined",)')
+14:33:32 Expression: j+1
+14:33:32 Result = ('Возникла ошибка: ', '("name \'j\' is not defined",)')
+14:34:56 Expression: 1+1j
+14:34:56 Result = (1+1j)
+14:35:03 Expression: 1j**2
+14:35:03 Result = (-1+0j)
+14:36:19 Expression: 12*6+3
+14:36:19 Result = 75
+14:36:24 Expression: 75+1j
+14:36:24 Result = (75+1j)
+14:36:32 Expression: (75+1j)*(1-1j)
+14:36:32 Result = (76-74j)
+14:42:46 Expression: 9999999999999999999
+14:42:46 Result = 9999999999999999999
+14:42:47 Expression: 9999999999999999999
+14:42:47 Result = 9999999999999999999
+14:42:57 Expression: 999999999999999999955**
+14:42:57 Result = ('Возникла ошибка: ', "('invalid syntax', ('<string>', 1, 0, '999999999999999999955**', 1, 0))")
+14:43:12 Expression: 99999999999+999999999999999999
+14:43:12 Result = 1000000099999999998
+14:43:29 Expression: 1000000099999999998+99999999999999999999999999999999999
+14:43:29 Result = 100000000000000001000000099999999997
+14:43:59 Expression: 999999999999999999999999999999999*999999999999999999999999
+14:43:59 Result = 999999999999999999999998999999999000000000000000000000001
+14:44:35 Expression: 10000000000000000000000*100000000000000000000000000000
+14:44:35 Result = 1000000000000000000000000000000000000000000000000000
+15:00:11 Expression: 12+3
+15:00:11 Result = 15
+15:00:14 Expression: 15/6
+15:00:14 Result = 2.5
+15:00:25 Expression: (2.5*98+3j)
+15:00:25 Result = (245+3j)
+15:00:47 Expression: 12j+6
+15:00:47 Result = (6+12j)
+15:00:52 Expression: (6+12j)*1j
+15:00:52 Result = (-12+6j)
+15:00:57 Expression: (-12+6j)*1j
+15:00:57 Result = (-6-12j)
+15:01:04 Expression: (-6-12j)*1j
+15:01:04 Result = (12-6j)
+15:09:26 Expression: (12+3j)*(12-9)
+15:09:26 Result = (36+9j)
